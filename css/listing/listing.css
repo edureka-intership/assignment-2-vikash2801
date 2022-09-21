@@ -1,0 +1,286 @@
+body{
+    margin:auto;
+    background-image:url("../image/wood.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    color:#fff;
+    /* border:2px solid red; */
+    background-color:#3b2632;
+    position:sticky;
+    top:0;
+    
+}
+#brand{
+    float:left;
+    margin-left: 2%;
+    margin-top:10px;
+    font-size:35px;
+}
+#brand >a{
+    color: red !important;
+    font-weight:bold;
+}
+#social{
+    float:right;
+    margin-right: 2%;
+}
+.socialLogo{
+    height:50px
+}
+/**/
+#content{
+    width:80%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top:2%;
+}
+
+#filterDiv{
+    display:inline-block;
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    float: left;
+    background: #D7D4DC;
+    position: sticky;
+    top:60px;
+    left:10%;
+}
+.filter{
+    display: inline-block;
+    width:90%;
+    margin:5% 5%;
+}
+.filter h3{
+    color:gray;
+    font-weight:bold;
+}
+.keyfilter{
+    margin-top:-10px;
+}
+.keyfilter div{
+    border:1px solid black;
+    border-radius:14px;
+    padding:2%;
+    margin:5px;
+    display:inline-block;
+}
+
+#contentDiv{
+    width:75%;
+    margin-left:4%;
+    float:left;
+}
+#Search-box{
+    width: 80%;
+    margin: 0% 10%;
+}
+#Search-box input{
+    border: 1px solid gray;
+    width: 100%;
+    font-family: sans-serif;
+    border-radius: 8px;
+    padding: 1% 2%;
+    outline: 0 none;
+    height: 35px;
+}
+.more-filters ul{
+    list-style: none;
+    width: 85%;
+    margin-left: 5%;
+}
+.more-filters ul li{
+    float:left;
+    margin-left:1%;
+    margin-right:1%;
+}
+.more-filters ul li button{
+    height:25px;
+    font-weight:bold;
+}
+.bton:hover{
+    transform: scale(1.05);
+}
+#foodcontent{
+    width:80%;
+    margin:3% 10%;
+    display:inline-block;
+}
+.food{
+    display: flex;
+    border-top: 4dpx groove brown;
+    margin-bottom: 35px;
+    background-color: #BACA9E;    
+}
+.imgDiv{
+    width: 45%;
+    height:200px;
+}
+.imgDiv img{
+    width:100%;
+    height:100%;
+}
+.details{
+    margin:5px 15px;
+    width: 60%;
+}
+.details p{
+    line-height:10px;
+    font-size:15px;
+}
+.tags{
+    font-style:italic;
+    font-family:sans-serif;
+    font-size:14px;
+    color:rgb(90, 87, 87);
+    display: block;
+    margin-top: -20px;
+}
+.timer{
+    font-size:11px;
+    line-height: 20px
+}
+.strike{
+    color:red;
+}
+.detail1{
+    display:flex;
+    justify-content: space-between;
+}
+div.ratings{
+    width:11%;
+    color:white;
+}
+div.ratings svg{
+    margin-bottom:-2px;
+    fill:white;
+    fill-rule: nonzero;
+}
+div.ratings span{
+    margin-left:-12%;
+}
+.bad-rating{
+    background: red;
+}
+.good-rating{
+    background:green;
+}
+.average-rating{
+    background:orangered;
+}
+.bottomMarginZero{
+    margin-bottom: -20px;
+}
+.success{
+    color:green;
+}
+.foodType{
+    float:right;
+}
+.order{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn-blue{
+    background: #4860a5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight:bold;
+    height: 22px;
+}
+.btn-blue:hover{
+    background: green;
+    color: black;
+}
+/*Footer Css*/
+footer{
+    margin-top:5%;
+    height:120px;
+    text-align: center;
+    background-color:#3b2632;
+    color:white
+    /* border:2px solid purple */
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid white
+}
+.noborder{
+    border:none
+}
+@media screen  and (max-width:500px){
+    body{
+        font-size:12px;
+    }
+    #content{
+        width:100%;
+        margin-left:0%;
+    }
+    .bton:hover{
+        transform:none;
+    }
+    div.ratings{
+        width:22%;
+    }
+    .filter{
+        font-size:12px;
+    }
+    .details{
+        font-size:12px;
+    }
+    .details h2{
+        font-size:15px;
+    }
+    .tags{
+        font-size:12px;
+        margin-top:-7px;
+    }
+    .more-filters{
+        margin-left:-7%;
+    }
+    
+}
+@media screen  and (max-width:727px){
+    body{
+        font-size:12px;
+    }
+    #content{
+        width:100%;
+        margin-left:0%;
+    }
+    .bton:hover{
+        transform:none;
+    }
+    div.ratings{
+        width:22%;
+    }
+    .filter{
+        font-size:12px;
+    }
+    .details{
+        font-size:12px;
+    }
+    .details h2{
+        font-size:15px;
+    }
+    .tags{
+        font-size:12px;
+        margin-top:-7px;
+    }
+    .more-filters{
+        margin-left:-5%;
+    }
+    
+}
