@@ -7,7 +7,34 @@
         
     </head>
     <body>
-        <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Zomato</a>
+                <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navbarDiv" aria-controls="navbarDiv" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"><img src="images/menu.jpg" alt="Menu"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarDiv">
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> 
+                                <img src="https://i.ibb.co/wrG1PKh/facebook.png" alt="fb" class="socialLogo"/>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> 
+                                <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="socialLogo"/>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="socialLogo"/>
+                            </a>
+                        </li>
+                    </ul>
+                 </div>
+        </nav>
+        
+        <!-- <header>
             <div id="brand">
                 <h1>Developer Funnel</h1>
             </div>
@@ -22,32 +49,68 @@
                     <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="socialLogo"/>
                 </a>
             </div>
-        </header>
+        </header> -->
+
+        
+
         <div id="search">
-            <div id="logo">
-                <span>D!</span>
+            <div class="carousel slide" id="carouselDiv" data-bs-ride="carousel">
+                <div class="carousel-inner" data-bs-interval="20000">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/foodWallpaper.png" alt="background-image" class="bg-img "/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/bg7.jpg" alt="background-image" class="bg-img"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/bg2.jpg" alt="background-image" class="bg-img"/>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/bg8.jpg" alt="background-image"class="bg-img"/>
+                    </div>
+                </div>
             </div>
-            <div id="heading">
-                Find Best Place Near You
-            </div>
-            <div id="dropdown">
-                <select>
-                    <option>----SELECT YOUR CITY----</option>
-                    <option>Delhi</option>
-                    <option>Mumbai</option>
-                </select>
-                <select id="restaurants">
-                    <option>----SELECT YOUR RESTAURANTS----</option>
-                    <option>Wow Momos</option>
-                    <option>Park Blue</option>
-                </select>
-            </div>
+
+            <div class="pos-must">
+                <div class="row logoDiv">
+                    <div class="col">
+                        <div id="logo">
+                            <span>D!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row headingDiv">
+                    <div class="col">
+                        <div id="heading">
+                            Find Best Place Near You
+                        </div>
+                    </div>
+                </div>
+                <div class="row dropdownDiv">
+                    <div class="col-12 col-md-5">
+                            <select id="dropdown">
+                                <option>----SELECT YOUR CITY----</option>
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                            </select>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1">
+                            <select id="restaurants">
+                                <option>----SELECT YOUR RESTAURANTS----</option>
+                                <option>Wow Momos</option>
+                                <option>Park Blue</option>
+                            </select>
+                    </div>                    
+                </div>
+            </div> 
         </div>
+
+
         <div id="quickSearch" class="container">
             <span id="quickHeading">Quick Search</span>
             <span id="quickSubHeading">Find Restaurants By MealType</span>
             <div id="main">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card m-2 card-dim">
                             <a href="#" target="_blank">
