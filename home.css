@@ -133,18 +133,25 @@ select{
 /*Footer Css*/
 footer{
     margin-top:5%;
-    height:120px;
+    height:220px;
     text-align: center;
-    background-color:#3b2632;
+    background-color:#eeb9b9;
     color:white
     /* border:2px solid purple */
 }
+footer h4{
+    color:red;
+}
 
 .footDiv{
-    height:70px;
+    height:150px;
     width:33%;
     float:left;
-    border-right:2px solid white
+    border-right:1px solid white
+}
+.footDiv p{
+    font-size: 16px;
+    color: black;
 }
 .noborder{
     border:none
@@ -159,7 +166,7 @@ nav{
     overflow: hidden;
 }
 .img-card img{
-    height:24vh;
+    height:25vh;
     width: 100%;
 }
 .img-card img:hover{
@@ -214,8 +221,13 @@ nav{
     top: 220px;
     left: 14%;
 }
+.btn{
+    padding: 0.25rem .65rem;
+}
 
-@media screen and (max-width: 1266px){
+
+
+@media (min-width: 1105px){
     div#heading{
         font-size: 40px;
     }
@@ -225,16 +237,28 @@ nav{
     .dropdownDiv{
         top: 210px;
     }
+    .card-dim, .img-card img{
+        height: 27vh;
+    }
+    .btn{
+        margin-top: -12px;
+    }
 }
-@media screen and (max-width: 1105px){
+@media (max-width: 1105px){
     div#heading{
         font-size: 35px;
     }
     .dropdownDiv{
         top: 205px;
     }
+    .card-dim, .img-card img{
+        height: 27vh;
+    }
+    .btn{
+        margin-top: -12px;
+    }
 }
-@media screen and (max-width: 977px){
+@media (max-width: 977px){
     div#heading{
         font-size: 30px;
     }
@@ -244,8 +268,12 @@ nav{
     .dropdownDiv{
         top: 195px;
     }
+    .card-dim, .img-card img{
+        height: 27vh;
+    }
 }
-@media screen and (max-width: 891px){
+
+@media (max-width: 891px){
     div#heading{
         font-size: 24px;
     }
@@ -255,19 +283,11 @@ nav{
     .dropdownDiv{
         top: 190px;
     }
+    .card-dim, .img-card img{
+        height: 27vh;
+    }    
 }
-@media screen and (max-width: 768px){
-    div#heading{
-        font-size: 22px;
-    }
-    .headingDiv{
-        left: 30%;
-    }
-    .dropdownDiv{
-        top: 180px;
-    }
-}
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
     div#heading{
         font-size: 18px;
     }
@@ -276,5 +296,58 @@ nav{
     }
     .dropdownDiv{
         top: 180px;
+    }
+    .card-dim, .img-card img{
+        height: 25vh;
+    }
+    .card-body h5, .card-body p{
+        font-size: 14px;
+    }
+    .btn{
+        margin-top: -10px;
+    }
+}
+
+@media (max-width:600px){
+    div#heading{
+        font-size: 18px;
+        width: 250px;
+    }
+    .headingDiv{
+        left: 35%;
+    }
+    .dropdownDiv{
+        top: 180px;
+    }
+    .card-dim, .img-card img{
+        height: 25vh;
+    }
+    .card-body h5, .card-body p{
+        font-size: 14px;
+    }
+    .btn{
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 499px){
+    div#heading{
+        font-size: 18px;
+        width: 220px;
+    }
+    .headingDiv{
+        left: 35%;
+    }
+    .dropdownDiv{
+        top: 180px;
+    }
+    .card-dim, .img-card img{
+        height: 18vh;
+    }
+    .card-body h5, .card-body p{
+        font-size: 26px;
+    }
+    .btn{
+        margin-top: -5px;
     }
 }
