@@ -314,7 +314,10 @@ nav{
         width: 250px;
     }
     .headingDiv{
-        left: 35%;
+        left: 25%;
+    }
+    #logo{
+        margin-left: 35%;
     }
     .dropdownDiv{
         top: 180px;
@@ -336,18 +339,24 @@ nav{
         width: 220px;
     }
     .headingDiv{
-        left: 35%;
+        left: 25%;
+    }
+    #logo{
+        margin-left: 35%;
     }
     .dropdownDiv{
         top: 180px;
     }
     .card-dim, .img-card img{
-        height: 18vh;
+        height: 23vh;
     }
     .card-body h5, .card-body p{
-        font-size: 26px;
+        font-size: 13px;
     }
-    .btn{
+    button.btn{
         margin-top: -5px;
+        height: 20px;
+        line-height: 0.5rem;
+        font-size: 0.7rem;
     }
 }
