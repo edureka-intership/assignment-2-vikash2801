@@ -326,7 +326,7 @@ nav{
         height: 25vh;
     }
     .card-body h5, .card-body p{
-        font-size: 14px;
+        font-size: 13px;
     }
     .btn{
         margin-top: -5px;
@@ -351,10 +351,10 @@ nav{
         height: 23vh;
     }
     .card-body h5, .card-body p{
-        font-size: 13px;
+        font-size: 12px;
     }
     button.btn{
-        margin-top: -5px;
+        margin-top: -10px;
         height: 20px;
         line-height: 0.5rem;
         font-size: 0.7rem;
